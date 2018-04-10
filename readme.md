@@ -7,6 +7,8 @@ A test project for setting up an ECS cluster with EC2 launch type via CloudForma
 Clone the repository to your local directory and launch shell script from command line.
 
 ```
+chmod u+x ./Launch.sh
+
 Launch.sh --stackname=MyTestStack --accesskey=AKI00000000000000000 --secretaccesskey=0000000000000000000000000000000000000000 --region=us-west-2 --containername=nginx --containerurl=nginx
 ```
 
